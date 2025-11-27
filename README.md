@@ -12,6 +12,7 @@ todo app
 simple interest calculator
 //
 motivational quotes app
+<img width="1837" height="801" alt="Image" src="https://github.com/user-attachments/assets/6011fd13-d063-4ed9-a56c-4fade88d1a24" />
 
 <img width="1831" height="803" alt="Image" src="https://github.com/user-attachments/assets/20efdcd3-acf7-43eb-bc49-27024590aa57" />
 <img width="1831" height="803" alt="Image" src="https://github.com/user-attachments/assets/20efdcd3-acf7-43eb-bc49-27024590aa57" />
