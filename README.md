@@ -10,6 +10,7 @@ Currently, two official plugins are available:
 todo app
 // 
 simple interest calculator
+<img width="1831" height="803" alt="Image" src="https://github.com/user-attachments/assets/20efdcd3-acf7-43eb-bc49-27024590aa57" />
 <img width="1838" height="817" alt="Image" src="https://github.com/user-attachments/assets/e85b3d4b-e54b-4f56-a365-fe8639f283eb" />
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
