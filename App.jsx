@@ -1,31 +1,28 @@
+import React, { useState } from 'react';
+"Eat", "code", "sleep","Repeat"
 
-import React, { useState } from "react";
-import "./index.css";
 
-const App = () => {
-  const [diceNumber, setDiceNumber] = useState(6);
+const App = () =>{
+  const [userInput, setUserInput] = useState([])
+  const [todos, setTodos] = useState([])
 
-  const refreshDice = () => {
-    const ranno = Math.floor(Math.random() * 6) + 1;
-    setDiceNumber(ranno);
-  };
+  const addData = () =>{
+  setTodos([...todos, userInput])
+  }
 
-  return (
-    <div>
-      <center>
-        <img
-          width={250}
-          height={250}
-          src={new URL(`./assets/dice_${diceNumber}.png`, import.meta.url).href}
-          alt="Dice"
-        />
-      </center>
-      <br />
-       <button onClick={refreshDice} className="button">Roll</button>
-    </div>
-  );
-};
+  return <div>
+
+    <h1>Todo List</h1>
+    <input onChange={(event)=> setUserInput(event.target.value)} type="text"></input><br/><br/>
+    <button onClick={() => addData()}>Add</button>
+    <ul>
+     {
+      todos.map((todo, index)=> <li key= {index}>{todo}</li>)
+     }
+
+    </ul>
+  </div>
+
+}
 
 export default App;
-
-
