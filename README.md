@@ -10,6 +10,9 @@ Currently, two official plugins are available:
 todo app
 // 
 simple interest calculator
+//
+motivational quotes app
+
 <img width="1831" height="803" alt="Image" src="https://github.com/user-attachments/assets/20efdcd3-acf7-43eb-bc49-27024590aa57" />
 <img width="1831" height="803" alt="Image" src="https://github.com/user-attachments/assets/20efdcd3-acf7-43eb-bc49-27024590aa57" />
 <img width="1838" height="817" alt="Image" src="https://github.com/user-attachments/assets/e85b3d4b-e54b-4f56-a365-fe8639f283eb" />
