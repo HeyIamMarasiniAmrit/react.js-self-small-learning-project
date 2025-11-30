@@ -22,3 +22,4 @@ const ItemQuotes = ({text, author}) => {
 }
 
 export default ItemQuotes
+
